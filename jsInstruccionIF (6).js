@@ -1,31 +1,52 @@
 function mostrar()
-{	//tomo la edad  
-	var edad
-	edad=document.getElementById('edad').value;
-	
-	/*Versión "Disney":
+{
+//tomo la edad  
 
-	if(edad<12);
-		{	alert("Ud es un niño");
+		var edad;
+		edad=document.getElementById("edad").value;
+		edad=parseInt(edad);
+
+		/*if(edad<13)
+		{
+				alert("Es un niño");
+		}
+		if ((edad>=13) && (edad<=17))
+		{
+				alert("Es adolescente");
+		}
+		if (edad>17) 
+		{
+			alert("Es mayor de edad");
+		}*/
+
+		//*Esto es eficaz NO eficiente SI se cumpla una, esa misma condiciona a las demás, el if iterado no
+
+
+	if(edad<13)
+		{
+			alert("Es un niño");
 		}
 
-			if(edad>12 && edad<18);
-			{	alert("Ud es un adolescente");
-			}
-
-				if(edad>18);
-					{alert("Ud es mayor");
-					}
+	if ((edad>=13) && (edad<=17))
+		{
+			alert("Es adolescente");
+		}
+	else
+	{
+			alert("Es mayor");
+	}
 	
-	*/
 
-	/* Versión IO
+	/*if (edad>17 && edad<=40) 
+	{
+			alert("Joven adulto");
+	}
+	else
+	{
+			alert("Es anciano");
+	} */
 
 
 
-	
-	else()
 
-
-
-}	//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN
