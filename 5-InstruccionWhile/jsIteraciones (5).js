@@ -1,10 +1,17 @@
+//Al presionar el botón pedir la CLAVE (ayuda: es utn750)//
+
 function mostrar()
 {
+	var sexo=prompt("Ingrese F o M:");
+	document.getElementById('Sexo').value=sexo;
 
-var sexo = prompt("ingrese f ó m .");
+	while()
+	
+
+/*terminame*/
 
 
 
-document.getElementById('Sexo').value=sexo;
+
 
 }//FIN DE LA FUNCIÓN

@@ -9,4 +9,6 @@ function mostrar()
 document.getElementById('suma').value=acumulador;
 document.getElementById('promedio').value=acumulador/contador;
 
+/*while y demás*/
+
 }//FIN DE LA FUNCIÓN
